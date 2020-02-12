@@ -20,7 +20,7 @@ def main():
         print('----执行时间：{:.04f}'.format(t2 - t1))
     print('----全部图片保存完毕。')
     time_end = time.time()
-    print('全部程序的执行时间：{:.04f}'.format(time_end - time_start))
+    print('全部程序执行时间：{:.04f}'.format(time_end - time_start))
 
 
 if __name__ == '__main__':
